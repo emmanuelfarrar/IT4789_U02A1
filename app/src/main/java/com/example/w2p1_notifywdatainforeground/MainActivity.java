@@ -54,10 +54,4 @@ public class MainActivity extends AppCompatActivity {
            }
        });
     }
-
-    public void runtimeEnableAutoInit() {
-        // [START fcm_runtime_enable_auto_init]
-        FirebaseMessaging.getInstance().setAutoInitEnabled(true);
-        // [END fcm_runtime_enable_auto_init]
-    }
 }
